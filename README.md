@@ -1,4 +1,5 @@
 # dq2_accre_cluster_job_efficiency
+<<<<<<< HEAD
 
 Optimal use of ACCRE computing cluster
 
@@ -15,3 +16,5 @@ We really only want to look at the "production" partition so rows with other par
 Job time is in a format of either d-hh:mm:ss or hh:mm:ss, it needs to be converted to total seconds
 Only successful jobs with "0:0" exit codes should be considered for memory use analysis
 Memory is reported in terms of Megabytes per node (Mc) or Megabytes per core (Mc), this needs to be uniformly converted to Megabytes per core by dividing by the number of cores per node in a job.
+=======
+>>>>>>> 2ee5a146feea746b92dbb1277316d6a668e4bd12
